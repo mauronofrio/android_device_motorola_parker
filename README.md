@@ -1,1 +1,1 @@
-# Device Tree for Moto G8 Plus (doha)
+# Device Tree for motorola one zoom (parker)

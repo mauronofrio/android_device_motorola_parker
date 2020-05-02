@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_doha.mk
+    $(LOCAL_DIR)/omni_parker.mk

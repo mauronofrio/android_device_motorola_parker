@@ -1,1 +1,1 @@
-add_lunch_combo omni_doha-eng
+add_lunch_combo omni_parker-eng

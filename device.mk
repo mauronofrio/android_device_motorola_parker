@@ -1,8 +1,8 @@
 
-LOCAL_PATH := device/motorola/doha
+LOCAL_PATH := device/motorola/parker
 
 # define hardware platform
-PRODUCT_PLATFORM := trinket
+PRODUCT_PLATFORM := sm6150
 
 #TEST
 # A/B support
@@ -14,7 +14,7 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 PRODUCT_PACKAGES += \
-    bootctrl.trinket
+    bootctrl.sm6150
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -25,7 +25,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # Enable update engine sideloading by including the static version of the
 # boot_control HAL and its dependencies.
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.trinket \
+    bootctrl.sm6150 \
     libgptutils \
     libz \
     libcutils
