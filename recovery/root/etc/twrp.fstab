@@ -16,7 +16,6 @@
 /efsg		emmc	/dev/block/bootdevice/by-name/fsg					flags=backup=1;subpartitionof=/efs1
 /persist	ext4	/dev/block/bootdevice/by-name/persist				flags=display="Persist";backup=1
 /oem    	ext4	/dev/block/bootdevice/by-name/oem   				flags=slotselect;display="Oem";backup=1;wipeingui
-/oem_other	ext4	/dev/block/bootdevice/by-name/oem_other				flags=slotselect;display="Oem other";backup=1;wipeingui
 
 # Removable storage
 /usbstorage      vfat    /dev/block/sdg1                            /dev/block/sdg     flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
